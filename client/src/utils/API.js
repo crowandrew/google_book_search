@@ -4,7 +4,7 @@ import axios from "axios";
 const BASEURL = "https://www.googleapis.com/books/v1/volumes?q=";
 const BOOKURL = "https://www.googleapis.com/books/v1/volumes/"
 const KEY = "&key="
-const APIKEY = "AIzaSyCrY15kyJwTReKCWh2eFm1zz4m05UV90to";
+const APIKEY = process.env.REACT_APP_GOOGLE_API_KEY;
 
 
 export default {
