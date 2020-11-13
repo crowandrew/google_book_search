@@ -9,7 +9,7 @@ export default function NavBar(props) {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/">Booklist</Nav.Link>
+          <Nav.Link href="/">Save Book List</Nav.Link>
           <Nav.Link href="/search">Search</Nav.Link>
         </Nav>
         {props.children}

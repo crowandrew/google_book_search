@@ -2,6 +2,7 @@ import React from "react";
 import { Form, FormControl, Button } from "react-bootstrap";
 
 
+
 export default function SearchForm(props) {
   return (
     <Form inline>
@@ -25,7 +26,7 @@ export default function SearchForm(props) {
       </Button>
       <Button
         variant="success"
-        onClick={props.handleClearSearchSort}
+        onClick={props.handleClearSearch}
         className="mx-1"
       >
         Reset
